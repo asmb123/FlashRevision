@@ -1,11 +1,9 @@
-import './App.css'
-import Navbar from './components/Navbar'
-import Cards from './components/Cards'
+import React from 'react'
+import "./About.css"
 import logo from './assets/HomeLogo.svg'
+import Navbar from './src/components/Navbar'
 
-
-function App() {
-
+const About = () => {
   return (
     <>
       <img className='logo' src={logo} alt="Homelogo" />
@@ -14,15 +12,11 @@ function App() {
       <Navbar title1="Home" title2="Bookmarks" title3="Create Notes" title4="About" />
       <div className="container">
         <div className="box">
-          <Cards subject="MA-101" />
-          <Cards subject="CSO-101" />
-          <Cards subject="subject" />
-          <Cards subject="subject" />
-          <Cards subject="subject" />
+          Testing About eeheehe
         </div>
       </div>
     </>
   )
 }
 
-export default App
+export default About

@@ -13,15 +13,15 @@ nav{
     height: 35px;
     gap: 20px;
 }
-nav span{
+
+.gg{
+    display: inline-block;
+    height: inherit;
     background-color: inherit;
     font-size: x-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-}
-.gg{
-    display: inline-block;
-    height: inherit;
+    text-decoration: none;
    
 }
 .gg:hover{
