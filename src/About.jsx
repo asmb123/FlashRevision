@@ -1,7 +1,7 @@
 import React from 'react'
 import "./About.css"
 import logo from './assets/HomeLogo.svg'
-import Navbar from './src/components/Navbar'
+import Navbar from './components/Navbar'
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
       <Navbar title1="Home" title2="Bookmarks" title3="Create Notes" title4="About" />
       <div className="container">
         <div className="box">
-          Testing About eeheehe
+          Just as the name suggests FlashRevision is for students to have a quick and concise Revision, hours or even minutes before the exam.📝
         </div>
       </div>
     </>
