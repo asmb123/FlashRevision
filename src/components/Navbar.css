@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 10px; */
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b345d1;
+    border-radius: 20px;
+    width: 600px;
+    height: 35px;
+    gap: 20px;
+}
+nav span{
+    background-color: inherit;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.gg{
+    display: inline-block;
+    height: inherit;
+   
+}
+.gg:hover{
+    background-color: #5a159f;
+    cursor: pointer;
+}

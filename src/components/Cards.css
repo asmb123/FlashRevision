@@ -1,0 +1,31 @@
+
+.cards{
+    background-color: #913FE2;
+    width: 20vw;
+    height: 50vh;
+    margin: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.4s;
+}
+.cards:hover{
+    transform: scale(1.2,1.2);
+    background-color: #B34ABD;
+    color: white;
+    cursor: pointer;
+    .bmark{
+        background-color: #cc67d5;
+    }
+    }
+.bmark{
+    position: relative;
+    top: 100px;
+    font-size: small;
+    background-color: #aa69ea;
+}
