@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import About from './About.jsx';
+import Bookmarks from './Bookmarks.jsx';
 
 import {
   createBrowserRouter,
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/About",
     element: <About/>,
+  },
+  {
+    path: "/Bookmarks",
+    element: <Bookmarks/>,
   },
 ]);
 

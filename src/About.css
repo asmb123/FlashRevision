@@ -4,7 +4,7 @@
     justify-content: center;
     height: fit-content;
 }
-.box{
+.boxa{
     padding: 15px;
     background-color: #202442;
     width: 60vw;
@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center; 
     flex-wrap: wrap;
-    height: fit-content;
+    height: 65vh;
     font-size: 40px;
     text-align: center;
     color: white;
@@ -23,9 +23,9 @@
     width: 170px;
     margin: 10px;
 }
-*{
+/* *{
     background-color: #25294A;
-}
+} */
 
 #sbar{
     position: relative;
@@ -36,4 +36,25 @@
     padding: 5px;
     background-color: #a245d1;
     border: none;
+}
+*{
+    .mp{
+        width: 250px;
+        height: 30px;
+        border-radius: 19px;
+        position: relative;
+        right: 470px;
+        top: 100px;
+        color: red;
+    
+    
+    }
+    .pm{
+        font-size: xx-large;
+        color: #a245d1;
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 60px;
+        right: 300px;
+    }
 }

@@ -1,0 +1,35 @@
+/* *{
+    background-color: #25294A;
+} */
+
+#sbar{
+    position: relative;
+    left: 1100px;
+    bottom: 30px;
+    border-radius: 25px;
+    height: 25px;
+    padding: 5px;
+    background-color: #a245d1;
+    border: none;
+}
+
+.container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+.boxb{
+    background-color: #202442;
+    width: 40vw;
+    height: 195vh;
+    border-radius: 15px;   
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    height: 70vh;
+}
+.logo{
+    width: 170px;
+    margin: 10px;
+}
