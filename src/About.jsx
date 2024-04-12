@@ -10,7 +10,7 @@ const About = () => {
       
       <span className='pm'>Lofi🎧</span>
       <audio controls src="./src/Lofi1.mp3" className='mp' ></audio>
-      <Navbar title1="Home" title2="Bookmarks" title3="Create Notes" title4="About" />
+      <Navbar title1="Home"  title3="My Flashcards" title4="About" />
       <div className="container">
         <div className="boxa">
         

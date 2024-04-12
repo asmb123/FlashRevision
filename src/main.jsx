@@ -4,7 +4,8 @@ import App from './App.jsx'
 import About from './About.jsx';
 import Bookmarks from './Bookmarks.jsx';
 import FlashCard from './FlashCard.jsx'
-
+import Cso from './Cso.jsx'
+import Maths from './Maths.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -26,6 +27,14 @@ const router = createBrowserRouter([
   {
     path: "/FlashCard",
     element: <FlashCard/>,
+  },
+  {
+    path: "/Cso",
+    element: <Cso/>,
+  },
+  {
+    path: "/Maths",
+    element: <Maths/>,
   },
   
 ]);
