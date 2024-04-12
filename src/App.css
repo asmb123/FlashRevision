@@ -2,16 +2,6 @@
     background-color: #25294A;
 }
 
-#sbar{
-    position: relative;
-    left: 1100px;
-    bottom: 30px;
-    border-radius: 25px;
-    height: 25px;
-    padding: 5px;
-    background-color: #a245d1;
-    border: none;
-}
 
 .container{
     margin-top: 15px;
@@ -32,4 +22,40 @@
 .logo{
     width: 170px;
     margin: 10px;
+}
+
+.cards{
+    background-color: #913FE2;
+    width: 20vw;
+    height: 50vh;
+    margin: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.4s;
+}
+.cards:hover{
+    transform: scale(1.2,1.2);
+    background-color: #B34ABD;
+    color: white;
+    cursor: pointer;
+    .link{
+        background-color: #cc67d5;
+    }
+    }
+
+.link{
+    position: relative;
+    top: 120px;
+    font-size: 20px;
+    background-color: #aa69ea;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    
 }

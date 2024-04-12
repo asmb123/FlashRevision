@@ -7,8 +7,7 @@ const Navbar = (props) => {
     <div className="navbar">
       <nav>
         <Link to="/" className='gg'>{props.title1}</Link>
-        <Link to="/Bookmarks" className='gg'>{props.title2}</Link>
-        <Link className='gg'>{props.title3}</Link>
+        <Link to="/FlashCard" className='gg'>{props.title3}</Link>
         <Link to="/About" className='gg'>{props.title4}</Link>
 
       </nav>

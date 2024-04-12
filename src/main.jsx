@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import About from './About.jsx';
 import Bookmarks from './Bookmarks.jsx';
+import FlashCard from './FlashCard.jsx'
 
 import {
   createBrowserRouter,
@@ -22,6 +23,11 @@ const router = createBrowserRouter([
     path: "/Bookmarks",
     element: <Bookmarks/>,
   },
+  {
+    path: "/FlashCard",
+    element: <FlashCard/>,
+  },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
