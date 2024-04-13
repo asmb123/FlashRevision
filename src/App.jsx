@@ -25,15 +25,19 @@ function App() {
           </div>
         <div className="cards" >
         Subject
-            <Link className='link' to="/Maths">Click me</Link>
+            <Link className='link' to="/">Click me</Link>
           </div>
         <div className="cards" >
             Subject
-            <Link className='link' to="/Maths">Click me</Link>
+            <Link className='link' to="/">Click me</Link>
           </div>
         <div className="cards" >
             Subject
-            <Link className='link' >Click me</Link>
+            <Link className='link' to="/">Click me</Link>
+          </div>
+        <div className="cards" >
+            Subject
+            <Link className='link' to="/">Click me</Link>
           </div>
         </div>
       </div>

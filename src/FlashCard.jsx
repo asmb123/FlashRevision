@@ -10,19 +10,14 @@ const FlashCard = () => {
   const[notes, setNotes] = useState([])
 
   const add=()=>{
-    setNotes([...notes, {note, done: false}])
+    setNotes([...notes, {note,}])
     setNote("")
   }
   const change=(e)=>{
     setNote(e.target.value)
     
   }
-  const edit=()=>{
-
-  }
-  const deletee=()=>{
-
-  }
+ 
   
   return (
     <>
@@ -43,8 +38,7 @@ const FlashCard = () => {
           {notes.map(item=>{
            return <>
            <div className="display">{item.note}</div>
-            <button className='add' onClick={edit}>Edit</button>
-             <button className='add' onClick={deletee}>Delete</button>
+           
            </>
             
           })}
